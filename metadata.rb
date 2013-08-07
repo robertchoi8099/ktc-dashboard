@@ -1,5 +1,5 @@
 name             'ktc-dashboard'
-maintainer       loudware
+maintainer       'KT Cloudware'
 maintainer_email 'wil.reichert@kt.com'
 license          'All rights reserved'
 description      'Installs/Configures ktc-dashboard'
