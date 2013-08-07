@@ -12,7 +12,9 @@ class Chef::Recipe
 end
 
 set_memcached_servers
+set_database_servers "dashboard"
 
 include_recipe "openstack-common"
 include_recipe "openstack-common::logging"
-include_recipe "openstack-dashboard::server
+include_recipe "openstack-dashboard::server"
+
