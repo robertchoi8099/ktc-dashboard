@@ -24,5 +24,5 @@ set_service_endpoint "compute-ec2-admin"
 
 include_recipe "openstack-common"
 include_recipe "openstack-common::logging"
-include_recipe "openstack-dashboard::server"
+include_recipe "ktc-dashboard::server"
 
