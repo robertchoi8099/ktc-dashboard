@@ -14,6 +14,7 @@ end
   ktc-utils
   openstack-common
   openstack-dashboard
+  logrotate
 }.each do |dep|
   depends dep
 end
