@@ -1,0 +1,55 @@
+{
+  "sources": {
+    "ktc-dashboard": {
+      "path": "."
+    },
+    "ktc-utils": {
+      "locked_version": "0.2.1",
+      "git": "git://github.com/cloudware-cookbooks/ktc-utils.git",
+      "ref": "e4ef1d2dd57a8a365111e24f47f357dde321c072"
+    },
+    "openstack-common": {
+      "locked_version": "0.4.3",
+      "git": "git://github.com/stackforge/cookbook-openstack-common.git",
+      "ref": "eb5eed7126b6a6efbaf803e8a594d610cf661e97"
+    },
+    "openstack-dashboard": {
+      "locked_version": "7.0.0",
+      "git": "git://github.com/stackforge/cookbook-openstack-dashboard.git",
+      "ref": "89009e26a415137b808140b59d6915f6e97b39e3"
+    },
+    "etcd": {
+      "locked_version": "1.2.3"
+    },
+    "ark": {
+      "locked_version": "0.3.0"
+    },
+    "apt": {
+      "locked_version": "2.1.0"
+    },
+    "database": {
+      "locked_version": "1.4.0"
+    },
+    "mysql": {
+      "locked_version": "3.0.2"
+    },
+    "openssl": {
+      "locked_version": "1.0.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "postgresql": {
+      "locked_version": "3.0.2"
+    },
+    "aws": {
+      "locked_version": "0.101.2"
+    },
+    "xfs": {
+      "locked_version": "1.1.0"
+    },
+    "apache2": {
+      "locked_version": "1.6.6"
+    }
+  }
+}
