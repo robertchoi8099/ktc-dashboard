@@ -17,4 +17,3 @@ include_recipe "openstack-dashboard::server"
 rewind :template => node["openstack"]["dashboard"]["apache"]["sites-path"] do
   cookbook "ktc-dashboard"
 end
-

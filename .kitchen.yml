@@ -15,9 +15,14 @@ platforms:
 suites:
 - name: default
   run_list:
+    - recipe[etcd]
+    - recipe[ktc-database]
     - recipe[ktc-dashboard]
   attributes:
     ha_disabled: true
+    mysql:
+      allow_remote_root: true
+      root_network_acl: '%'
     openstack:
       developer_mode: true
 
